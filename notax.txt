@@ -1,0 +1,8 @@
+# Curso de GIT:
+    - git init -> inicializa un proyecto en git
+    - remote -> es para ver en que repositorio remoto esta alojado nuestro proyecto
+    - git remote add origin "repo" -> agregamos el repositorio remoto
+    - git remote -v -> es para ver mas en detalle el repositorio
+    - git push -> es para empujar o subir nuestro codigo al repositorio remoto
+
+
