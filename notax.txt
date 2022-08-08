@@ -4,5 +4,69 @@
     - git remote add origin "repo" -> agregamos el repositorio remoto
     - git remote -v -> es para ver mas en detalle el repositorio
     - git push -> es para empujar o subir nuestro codigo al repositorio remoto
+    - git branch -> es para ver las ramas que tenemos y en la que estamos.
+    - git branch -m nombreNuevo-> cambiamos el nombre de la rama en la que estamos
+    - git pull -> Traer cambios del github a nuestro git o entorno local
+    - git fetch -> Es lo mismo que git pull, pero la diferencia es que no agrega un git merge, es decir no va a mezclar los cambios, pero si los vamos a poder visualizar
+    - git merge -> trae los archivos de git fetch a la rama main
+    - git clone -> cuando queremos clonar o descargar un proyecto de cualquier desarrollador.
+    - pull requets -> es enviar el codigo a un proceso de validacion, si esta todo bien realizamos el git merge sino correjimos los errores para no poner en riesgo nuestra rama principal
+    - git --log --graph --all -> para ver todos los commits y pull request del proyecto
+    - git stash -> Guarda los cambios de una manera superficial, no es git commit pero es parecido.
+    - git stash pop -> es para traer los cambios del stash en otra rama alternativa
+    - git chechout -b nombreRama -> es para crear y movernos sobre una nueva rama.
+    - git chechout version -> es para volver a una version anterior que si funcionaba nuestro codigo y ver su estado y para volver al estado actual es git checkout main
+    - git revert HEAD-> como borrar o deshacer los cambios de un commit, y volver los cambios que cometemos por error
+    - git reset --hard version -> es para volver a commit anteriores y todo los commits posteriores se eliminan.
+    - git commit --amend -> es para agregar cambios en el commit anterior que nos olvidamos agregar algo al mismo commit
+    - git rebase -> es una especie de merge, pero con la diferencia es que toma todos los commits en una rama y ponerlo en otra
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
